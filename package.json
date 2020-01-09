@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/cli-args",
-	"version": "3.1.35",
+	"version": "3.1.36",
 	"description": "ctx-core command line interface (cli) args library",
 	"main": "lib.js",
 	"module": "lib.js",
@@ -31,9 +31,9 @@
 	},
 	"gitHead": "ecded533c5d9946e2d9dafa39dbc95ce3e38ad93",
 	"dependencies": {
-		"@ctx-core/array": "^15.5.4",
-		"@ctx-core/function": "^10.5.37",
-		"@ctx-core/object": "^7.0.0"
+		"@ctx-core/array": "^15.5.5",
+		"@ctx-core/function": "^10.5.38",
+		"@ctx-core/object": "^8.0.0"
 	},
 	"devDependencies": {
 		"typescript": "^3.7.4"
