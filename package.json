@@ -36,6 +36,6 @@
 		"@ctx-core/object": "^8.0.2"
 	},
 	"devDependencies": {
-		"typescript": "^3.8.2"
+		"typescript": "^3.8.3"
 	}
 }
