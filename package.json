@@ -29,7 +29,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"gitHead": "78b0bfba65083607f14ba7bb243a08b011cc7b87",
+	"gitHead": "5f850d5621602a2d505ddbfb4f76a8f99369a118",
 	"dependencies": {
 		"@ctx-core/array": "^16.0.6",
 		"@ctx-core/function": "^13.1.2",
