@@ -11,12 +11,12 @@ export function _param_h<T = {[key: string]: string}>(
 	const default_param_h = {}
 	for (let param_name in default_value_h_param_name_h) {
 		if (param_h[param_name] == null) {
-			const default_value = default_value_h_param_name_h[param_name]
-			const default_value$ =
-				typeof default_value === 'function'
-				? default_value(param_h, param_name)
-				: default_value
-			default_param_h[param_name] = default_value$
+			const in_default_value = default_value_h_param_name_h[param_name]
+			const out_default_value =
+				typeof in_default_value === 'function'
+				? in_default_value(param_h, param_name)
+				: in_default_value
+			default_param_h[param_name] = out_default_value
 		}
 	}
 	assign(param_h, default_param_h)
