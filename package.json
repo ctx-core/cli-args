@@ -31,8 +31,8 @@
 	},
 	"gitHead": "c478ce5c305b098d64f4a50177170c148a042f2c",
 	"dependencies": {
-		"@ctx-core/array": "^16.0.15",
-		"@ctx-core/function": "^13.2.4",
+		"@ctx-core/array": "^17.0.0",
+		"@ctx-core/function": "^14.0.0",
 		"@ctx-core/object": "^10.0.0"
 	},
 	"devDependencies": {
