@@ -1,4 +1,4 @@
-import { param_dfn_h_param_name_h_type } from './param_dfn_h_param_name_h_type';
+import type { param_dfn_h_param_name_h_type } from './param_dfn_h_param_name_h_type';
 export declare function _param_h<T = {
     [key: string]: string;
 }>(arg_a1: string[], param_dfn_h_param_name_h?: param_dfn_h_param_name_h_type, default_value_h_param_name_h?: {}): T;

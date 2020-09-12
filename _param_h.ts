@@ -1,5 +1,5 @@
 import { assign, keys, pick } from '@ctx-core/object'
-import { param_dfn_h_param_name_h_type } from './param_dfn_h_param_name_h_type'
+import type { param_dfn_h_param_name_h_type } from './param_dfn_h_param_name_h_type'
 import { _param_value_h_param_name_h } from './_param_value_h_param_name_h'
 export function _param_h<T = {[key: string]: string}>(
 	arg_a1:string[],

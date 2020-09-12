@@ -1,8 +1,8 @@
 import { isArray } from '@ctx-core/object'
-import { param_dfn_h_param_name_h_type } from './param_dfn_h_param_name_h_type'
+import type { param_dfn_h_param_name_h_type } from './param_dfn_h_param_name_h_type'
 import { _param_name_h_flag_h } from './_param_name_h_flag_h'
 import { flag_regex } from './flag_regex'
-import { param_dfn_reducer_type } from './param_dfn_reducer_type'
+import type { param_dfn_reducer_type } from './param_dfn_reducer_type'
 export function _param_value_h_param_name_h(
 	arg_a1:string[],
 	h1__param_name__h0__param_dfn?:param_dfn_h_param_name_h_type
