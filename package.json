@@ -2,6 +2,20 @@
 	"name": "@ctx-core/cli-args",
 	"version": "4.1.8",
 	"description": "ctx-core command line interface (cli) args library",
+	"keywords": [
+		"ctx-core",
+		"args"
+	],
+	"homepage": "https://github.com/ctx-core/cli-args#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/cli-args/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/cli-args.git"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
 	"main": "./index.js",
 	"module": "./index.js",
 	"types": "./index.ts",
@@ -9,33 +23,19 @@
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
 		"compile": "tsc -b",
-		"prepublishOnly": "npm run compile",
-		"exec": "$@"
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
 	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/cli-args.git"
-	},
-	"keywords": [
-		"ctx-core",
-		"args"
-	],
-	"author": "Brian Takita",
-	"license": "Apache-2.0",
-	"bugs": {
-		"url": "https://github.com/ctx-core/cli-args/issues"
-	},
-	"homepage": "https://github.com/ctx-core/cli-args#readme",
-	"publishConfig": {
-		"access": "public"
-	},
-	"gitHead": "ffdaf8f0169bc4201e5d686214d29b0b172aeb69",
 	"dependencies": {
-		"@ctx-core/array": "^17.0.4",
-		"@ctx-core/function": "^14.0.3",
-		"@ctx-core/object": "^10.0.4"
+		"@ctx-core/array": "workspace:*",
+		"@ctx-core/function": "workspace:*",
+		"@ctx-core/object": "workspace:*"
 	},
 	"devDependencies": {
 		"typescript": "^4.0.2"
-	}
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"gitHead": "ffdaf8f0169bc4201e5d686214d29b0b172aeb69"
 }
