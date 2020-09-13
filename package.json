@@ -10,7 +10,7 @@
 		"clean": "rm -f tsconfig.tsbuildinfo",
 		"compile": "tsc -b",
 		"prepublishOnly": "npm run compile",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"exec": "$@"
 	},
 	"repository": {
 		"type": "git",
@@ -29,7 +29,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"gitHead": "90821653756ff44cecb0e6dae980e72c017ac098",
+	"gitHead": "ffdaf8f0169bc4201e5d686214d29b0b172aeb69",
 	"dependencies": {
 		"@ctx-core/array": "^17.0.4",
 		"@ctx-core/function": "^14.0.3",
