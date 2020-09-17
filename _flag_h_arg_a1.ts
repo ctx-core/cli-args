@@ -1,7 +1,7 @@
 import { reduce } from '@ctx-core/array'
 import { keys } from '@ctx-core/object'
-export function _flag_h_arg_a1(flag_h, arg_a1) {
-	return reduce(
+export function _flag_h_arg_a1<O = unknown>(flag_h: Record<string, O>, arg_a1: string[]) {
+	return reduce<string, (string|O)[]>(
 		keys(flag_h),
 		(memo, flag)=>{
 			memo.push(flag)

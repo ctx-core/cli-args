@@ -1,9 +1,9 @@
 import { assign, keys, pick } from '@ctx-core/object'
-import type { param_dfn_h_param_name_h_type } from './param_dfn_h_param_name_h_type'
+import type { param_name_h_param_dfn_type } from './param_name_h_param_dfn_type'
 import { _param_value_h_param_name_h } from './_param_value_h_param_name_h'
-export function _param_h<T = {[key: string]: string}>(
+export function _param_h<I = Record<string, string>>(
 	arg_a1:string[],
-	param_dfn_h_param_name_h?:param_dfn_h_param_name_h_type,
+	param_dfn_h_param_name_h?:param_name_h_param_dfn_type,
 	default_value_h_param_name_h = {}
 ) {
 	const param_h =
@@ -22,9 +22,9 @@ export function _param_h<T = {[key: string]: string}>(
 	assign(param_h, default_param_h)
 	if (param_dfn_h_param_name_h) {
 		const param_name_a1 = keys(param_dfn_h_param_name_h)
-		return pick(param_h, ...param_name_a1) as T
+		return pick(param_h, ...param_name_a1) as I
 	}
-	return param_h as T
+	return param_h as I
 }
 export const _h__param = _param_h
 export const _param_h__pick__default = _param_h
