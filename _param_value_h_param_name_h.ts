@@ -19,7 +19,8 @@ export function _param_value_h_param_name_h(
 			const j__no_value = j
 			const param_name = h1__flag__h0__param_name[flag] || flag
 			const _param = ((
-				isArray(param_name_h_param_dfn[param_name])
+				param_name_h_param_dfn
+				&& isArray(param_name_h_param_dfn[param_name])
 				&& param_name_h_param_dfn[param_name][1]
 			) || ((_, val)=>val)) as param_dfn_reducer_type
 			while (j < arg_a1.length && !flag_regex.test(arg_a1[j])) {

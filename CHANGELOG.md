@@ -1,5 +1,18 @@
 # @ctx-core/cli-args
 
+## 6.0.0
+
+### Major Changes
+
+- Typescript strict checking
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.0.0
+  - @ctx-core/function@16.0.0
+  - @ctx-core/object@12.0.0
+
 ## 5.0.1
 
 ### Patch Changes
