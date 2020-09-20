@@ -1,5 +1,14 @@
 # @ctx-core/cli-args
 
+## 6.0.2
+
+### Patch Changes
+
+- fix: install issues: using explicit workspace: versioning
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.0.2
+  - @ctx-core/object@12.0.1
+
 ## 6.0.1
 
 ### Patch Changes
