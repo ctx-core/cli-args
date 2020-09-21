@@ -14,7 +14,7 @@ export function _flag_h_param_name(
 				? (param_dfn as param_dfn_a1_type)[0]
 				: param_dfn as string
 			)
-		each<string[]>(flag_a1,
+		each<string>(flag_a1,
 			flag=>
 				flag_h_param_name[flag] = param_name)
 	}
