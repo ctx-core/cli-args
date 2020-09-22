@@ -1,5 +1,14 @@
 # @ctx-core/cli-args
 
+## 6.0.8
+
+### Patch Changes
+
+- fix: \*.d.ts updates
+- Updated dependencies [undefined]
+  - @ctx-core/object@12.0.4
+  - @ctx-core/array@19.0.8
+
 ## 6.0.7
 
 ### Patch Changes
