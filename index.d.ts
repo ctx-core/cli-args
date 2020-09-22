@@ -12,4 +12,5 @@ export * from './param_dfn_a1_reducer';
 export * from './param_dfn_reducer_type';
 export * from './param_dfn_split_regex';
 export * from './param_name_h_param_dfn_type';
+export * from './param_record_type';
 export * from './pick_arg_a1';

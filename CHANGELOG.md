@@ -1,5 +1,11 @@
 # @ctx-core/cli-args
 
+## 6.1.0
+
+### Minor Changes
+
+- feat: `param_record_type`
+
 ## 6.0.8
 
 ### Patch Changes

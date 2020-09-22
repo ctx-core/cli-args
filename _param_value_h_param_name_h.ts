@@ -4,11 +4,12 @@ import { _flag_h_param_name } from './_flag_h_param_name'
 import { flag_regex } from './flag_regex'
 import type { param_dfn_reducer_type } from './param_dfn_reducer_type'
 import type { param_dfn_type } from './_default_arg_a1'
+import type { param_record_type } from './param_record_type'
 export function _param_value_h_param_name_h(
 	arg_a1:string[],
 	param_name_h_param_dfn?:param_name_h_param_dfn_type
 ) {
-	const param_value_h0_param_name_h1 = {} as Record<string, param_dfn_type|boolean>
+	const param_value_h0_param_name_h1 = {} as param_record_type
 	const param_name_h0_flag_h1 = _flag_h_param_name(param_name_h_param_dfn)
 	let i = 0
 	while (i < arg_a1.length) {
