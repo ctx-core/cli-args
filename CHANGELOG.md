@@ -1,5 +1,14 @@
 # @ctx-core/cli-args
 
+## 6.1.19
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/object@15.0.0
+  - @ctx-core/array@19.1.2
+
 ## 6.1.18
 
 ### Patch Changes
