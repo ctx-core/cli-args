@@ -1,2 +1,2 @@
 import type { param_dfn_type } from './_default_arg_a1'
-export type param_record_type = Record<string, param_dfn_type|boolean>
+export interface param_record_type extends Record<string, param_dfn_type|boolean> {}

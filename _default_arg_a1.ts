@@ -25,5 +25,7 @@ export function _default_arg_a1(
 	}
 	return default_arg_a1
 }
-export const _a1__arg__default = _default_arg_a1
 export type param_dfn_type = string|(()=>string)
+export {
+	_default_arg_a1 as _a1__arg__default
+}
