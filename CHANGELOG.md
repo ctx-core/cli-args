@@ -1,5 +1,20 @@
 # @ctx-core/cli-args
 
+## 6.1.23
+
+### Patch Changes
+
+- interface instead of type: param_name_h_param_dfn_type,param_record_type
+- using export as instead of export const
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/array@19.1.6
+  - @ctx-core/object@15.0.4
+  - @ctx-core/function@16.1.5
+
 ## 6.1.22
 
 ### Patch Changes
