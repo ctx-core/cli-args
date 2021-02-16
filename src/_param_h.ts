@@ -6,7 +6,7 @@ export function _param_h(
 	arg_a1:string[],
 	param_dfn_h_param_name_h?:param_name_h_param_dfn_type,
 	default_value_h_param_name_h = {}
-) {
+):param_record_type {
 	const param_h =
 		_param_value_h_param_name_h(arg_a1, param_dfn_h_param_name_h)
 	const default_param_h = {}
@@ -23,9 +23,11 @@ export function _param_h(
 	assign(param_h, default_param_h)
 	if (param_dfn_h_param_name_h) {
 		const param_name_a1 = keys(param_dfn_h_param_name_h)
-		return pick(param_h, ...param_name_a1)
+		return pick(param_h, ...param_name_a1) as param_record_type
 	}
 	return param_h as param_record_type
 }
-export const _h__param = _param_h
-export const _param_h__pick__default = _param_h
+export {
+	_param_h as _h__param,
+	_param_h as _param_h__pick__default
+}

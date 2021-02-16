@@ -1,5 +1,19 @@
 # @ctx-core/cli-args
 
+## 7.1.0
+
+### Minor Changes
+
+- added types to functions
+
+### Patch Changes
+
+- alias using export as
+- Updated dependencies [undefined]
+- Updated dependencies [undefined]
+  - @ctx-core/object@17.0.7
+  - @ctx-core/array@20.1.9
+
 ## 7.0.11
 
 ### Patch Changes

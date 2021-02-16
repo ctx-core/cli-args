@@ -6,7 +6,7 @@ export function _default_arg_a1(
 	arg_a1:string[],
 	value_h_param_dfn_h = {} as Record<string, param_dfn_type>,
 	cancel_a1 = [] as string[]
-) {
+):string[] {
 	const default_arg_a1 = arg_a1.slice(0) as string[]
 	const flag_h = _flag_h(default_arg_a1)
 	if (some<string>(keys(flag_h), flag=>cancel_a1.indexOf(flag) > -1)) {
