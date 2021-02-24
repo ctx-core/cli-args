@@ -1,9 +1,9 @@
 import { each } from '@ctx-core/array'
 import { _flag_a1 } from './_flag_a1'
-import type { param_dfn_type } from './_default_arg_a1'
-export function _dfn_flag_h(param_dfn_a1:param_dfn_type[]):Record<string, string[]> {
+import type { param_dfn_T } from './_default_arg_a1'
+export function _dfn_flag_h(param_dfn_a1:param_dfn_T[]):Record<string, string[]> {
 	const dfn_flag_h = {} as Record<string, string[]>
-	each(param_dfn_a1, (param_dfn:param_dfn_type)=>{
+	each(param_dfn_a1, (param_dfn:param_dfn_T)=>{
 		const flag_a1 = _flag_a1(
 			typeof param_dfn === 'function'
 			? (param_dfn as ()=>string)() as string

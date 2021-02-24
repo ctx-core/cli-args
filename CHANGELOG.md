@@ -1,5 +1,11 @@
 # @ctx-core/cli-args
 
+## 7.2.0
+
+### Minor Changes
+
+- \*\_T type names
+
 ## 7.1.2
 
 ### Patch Changes
@@ -333,7 +339,7 @@
 
 ### Patch Changes
 
-- interface instead of type: param_name_h_param_dfn_type,param_record_type
+- interface instead of type: param_name_h_param_dfn_T,param_record_type
 - using export as instead of export const
 - Updated dependencies [undefined]
 - Updated dependencies [undefined]
