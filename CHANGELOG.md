@@ -1,5 +1,15 @@
 # @ctx-core/cli-args
 
+## 7.2.12
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.2.2
+  - @ctx-core/function@17.4.3
+  - @ctx-core/object@17.4.2
+
 ## 7.2.11
 
 ### Patch Changes
