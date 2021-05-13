@@ -1,6 +1,6 @@
 import { flag_regex } from './flag_regex'
 export function _flag_h(arg_a1:string[]):Record<string, string> {
-	const flag_h = {}
+	const flag_h:Record<string, string> = {}
 	let i = 0
 	while (i < arg_a1.length) {
 		const flag = arg_a1[i]
@@ -17,7 +17,7 @@ export function _flag_h(arg_a1:string[]):Record<string, string> {
 				j += 1
 			}
 		}
-		if (!(flag in flag_h)) flag_h[flag] = null
+		if (!(flag in flag_h)) delete flag_h[flag]
 		i = j
 	}
 	return flag_h

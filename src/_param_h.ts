@@ -2,18 +2,18 @@ import { assign, keys, pick } from '@ctx-core/object'
 import type { param_name_h_param_dfn_T } from './param_name_h_param_dfn_T'
 import { _param_value_h_param_name_h } from './_param_value_h_param_name_h'
 import type { param_record_T } from './param_record_T'
+import type { param_dfn_T } from './_default_arg_a1'
 export function _param_h(
 	arg_a1:string[],
 	param_dfn_h_param_name_h?:param_name_h_param_dfn_T,
 	default_value_h_param_name_h = {}
 ):param_record_T {
-	const param_h =
-		_param_value_h_param_name_h(arg_a1, param_dfn_h_param_name_h)
-	const default_param_h = {}
+	const param_h = _param_value_h_param_name_h(arg_a1, param_dfn_h_param_name_h)
+	const default_param_h:Partial<param_record_T> = {}
 	for (let param_name in default_value_h_param_name_h) {
 		if (param_h[param_name] == null) {
 			const in_default_value = default_value_h_param_name_h[param_name]
-			const out_default_value =
+			const out_default_value:param_dfn_T|boolean =
 				typeof in_default_value === 'function'
 				? in_default_value(param_h, param_name)
 				: in_default_value

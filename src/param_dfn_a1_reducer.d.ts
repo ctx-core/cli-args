@@ -1,1 +1,1 @@
-export declare function param_dfn_a1_reducer<Out extends unknown[] = unknown[]>(memo: any, value: any): Out;
+export declare function param_dfn_a1_reducer<Val extends unknown = unknown>(memo: Val[], value: Val): Val[];
