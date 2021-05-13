@@ -1,5 +1,11 @@
 # @ctx-core/cli-args
 
+## 7.2.43
+
+### Patch Changes
+
+- fix: \_param_h: type fix
+
 ## 7.2.42
 
 ### Patch Changes

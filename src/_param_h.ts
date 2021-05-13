@@ -14,7 +14,7 @@ export function _param_h(
 		if (param_h[param_name] == null) {
 			const in_default_value:_param_h_default_value_h_param_name_value_T =
 				default_value_h_param_name[param_name]
-			const out_default_value:param_dfn_T|boolean =
+			const out_default_value:default_param_T =
 				typeof in_default_value === 'function'
 				? in_default_value(param_h, param_name)
 				: in_default_value
@@ -28,8 +28,9 @@ export function _param_h(
 	}
 	return param_h as param_record_T
 }
+export type default_param_T = string|boolean|param_dfn_T
 export type _param_h_default_value_h_param_name_value_T =
-	(param_h:param_record_T, param_name:string)=>boolean|boolean
+	default_param_T|((param_h:param_record_T, param_name:string)=>default_param_T)
 export type _param_h_default_value_h_param_name_T =
 	Record<string, _param_h_default_value_h_param_name_value_T>
 export {
