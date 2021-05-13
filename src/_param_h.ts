@@ -6,13 +6,14 @@ import type { param_dfn_T } from './_default_arg_a1'
 export function _param_h(
 	arg_a1:string[],
 	param_dfn_h_param_name_h?:param_name_h_param_dfn_T,
-	default_value_h_param_name_h = {}
+	default_value_h_param_name:_param_h_default_value_h_param_name_T = {} as _param_h_default_value_h_param_name_T
 ):param_record_T {
 	const param_h = _param_value_h_param_name_h(arg_a1, param_dfn_h_param_name_h)
 	const default_param_h:Partial<param_record_T> = {}
-	for (let param_name in default_value_h_param_name_h) {
+	for (let param_name in default_value_h_param_name) {
 		if (param_h[param_name] == null) {
-			const in_default_value = default_value_h_param_name_h[param_name]
+			const in_default_value:_param_h_default_value_h_param_name_T =
+				default_value_h_param_name[param_name]
 			const out_default_value:param_dfn_T|boolean =
 				typeof in_default_value === 'function'
 				? in_default_value(param_h, param_name)
@@ -27,6 +28,7 @@ export function _param_h(
 	}
 	return param_h as param_record_T
 }
+export type _param_h_default_value_h_param_name_T = (param_h:param_record_T, param_name:string)=>boolean|boolean
 export {
 	_param_h as _h__param,
 	_param_h as _param_h__pick__default
