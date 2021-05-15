@@ -1,5 +1,18 @@
 # @ctx-core/cli-args
 
+## 7.3.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.0
+  - @ctx-core/function@17.9.0
+  - @ctx-core/object@17.6.0
+
 ## 7.2.43
 
 ### Patch Changes

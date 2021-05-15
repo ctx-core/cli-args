@@ -9,7 +9,7 @@ export function _param_h(
 	default_value_h_param_name:_param_h_default_value_h_param_name_T = {} as _param_h_default_value_h_param_name_T
 ):param_record_T {
 	const param_h = _param_value_h_param_name_h(arg_a1, param_dfn_h_param_name_h)
-	const default_param_h:Partial<param_record_T> = {}
+	const default_param_h:Record<keyof param_record_T, default_param_T> = {}
 	for (let param_name in default_value_h_param_name) {
 		if (param_h[param_name] == null) {
 			const in_default_value:_param_h_default_value_h_param_name_value_T =
@@ -28,7 +28,7 @@ export function _param_h(
 	}
 	return param_h as param_record_T
 }
-export type default_param_T = string|boolean|param_dfn_T
+export type default_param_T = string|number|boolean|param_dfn_T
 export type _param_h_default_value_h_param_name_value_T =
 	default_param_T|((param_h:param_record_T, param_name:string)=>default_param_T)
 export type _param_h_default_value_h_param_name_T =
