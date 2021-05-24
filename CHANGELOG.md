@@ -1,5 +1,18 @@
 # @ctx-core/cli-args
 
+## 7.4.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.4.0
+  - @ctx-core/function@17.10.0
+  - @ctx-core/object@18.1.0
+
 ## 7.3.10
 
 ### Patch Changes
