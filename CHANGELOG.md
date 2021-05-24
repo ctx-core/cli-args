@@ -1,5 +1,15 @@
 # @ctx-core/cli-args
 
+## 7.3.10
+
+### Patch Changes
+
+- types: ./src/index.d.ts: address error TS2742 issue
+- Updated dependencies [undefined]
+  - @ctx-core/array@20.3.10
+  - @ctx-core/function@17.9.3
+  - @ctx-core/object@18.0.6
+
 ## 7.3.9
 
 ### Patch Changes
