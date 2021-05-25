@@ -1,5 +1,11 @@
 # @ctx-core/cli-args
 
+## 7.4.2
+
+### Patch Changes
+
+- update dependencies
+
 ## 7.4.1
 
 ### Patch Changes
