@@ -1,5 +1,14 @@
 # @ctx-core/cli-args
 
+## 7.5.1
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/function@17.11.1
+  - @ctx-core/object@18.2.1
+
 ## 7.5.0
 
 ### Minor Changes
