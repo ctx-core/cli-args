@@ -5,7 +5,7 @@ import { flag_regex } from './flag_regex'
 import type { param_dfn_reducer_T } from './param_dfn_reducer_T'
 import type { param_dfn_T } from './_default_arg_a1'
 import type { param_record_T } from './param_record_T'
-export function _param_value_h_param_name_h(
+export function _param_value_h_param_name(
 	arg_a1:string[],
 	param_name_h_param_dfn?:param_name_h_param_dfn_T
 ):param_record_T {

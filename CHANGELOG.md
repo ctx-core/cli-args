@@ -1,5 +1,11 @@
 # @ctx-core/cli-args
 
+## 7.6.0
+
+### Minor Changes
+
+- \_param_value_h_param_name_h->\_param_value_h_param_name
+
 ## 7.5.1
 
 ### Patch Changes

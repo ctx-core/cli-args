@@ -1,6 +1,6 @@
 import { assign, keys, pick } from '@ctx-core/object'
 import type { param_name_h_param_dfn_T } from './param_name_h_param_dfn_T'
-import { _param_value_h_param_name_h } from './_param_value_h_param_name_h'
+import { _param_value_h_param_name } from './_param_value_h_param_name'
 import type { param_record_T } from './param_record_T'
 import type { param_dfn_T } from './_default_arg_a1'
 export function _param_h(
@@ -8,7 +8,7 @@ export function _param_h(
 	param_dfn_h_param_name_h?:param_name_h_param_dfn_T,
 	default_value_h_param_name:_param_h_default_value_h_param_name_T = {} as _param_h_default_value_h_param_name_T
 ):param_record_T {
-	const param_h = _param_value_h_param_name_h(arg_a1, param_dfn_h_param_name_h)
+	const param_h = _param_value_h_param_name(arg_a1, param_dfn_h_param_name_h)
 	const default_param_h:Record<keyof param_record_T, default_param_T> = {}
 	for (let param_name in default_value_h_param_name) {
 		if (param_h[param_name] == null) {
