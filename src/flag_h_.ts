@@ -1,14 +1,14 @@
 import { flag_regex } from './flag_regex'
-export function _flag_h(arg_a1:string[]):Record<string, string> {
+export function flag_h_(arg_a:string[]):Record<string, string> {
 	const flag_h:Record<string, string> = {}
 	let i = 0
-	while (i < arg_a1.length) {
-		const flag = arg_a1[i]
+	while (i < arg_a.length) {
+		const flag = arg_a[i]
 		const match = flag_regex.test(flag)
 		let j = i + 1
 		if (match) {
-			while (j < arg_a1.length && !flag_regex.test(arg_a1[j])) {
-				const value = arg_a1[j]
+			while (j < arg_a.length && !flag_regex.test(arg_a[j])) {
+				const value = arg_a[j]
 				if (flag_h[flag]) {
 					flag_h[flag] += ` ${value}`
 				} else {
@@ -23,5 +23,6 @@ export function _flag_h(arg_a1:string[]):Record<string, string> {
 	return flag_h
 }
 export {
-	_flag_h as _h__flag
+	flag_h_ as _flag_h,
+	flag_h_ as _h__flag,
 }

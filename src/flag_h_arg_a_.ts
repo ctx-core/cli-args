@@ -1,7 +1,7 @@
 import { reduce } from '@ctx-core/array'
 import { keys } from '@ctx-core/object'
-export function _flag_h_arg_a1<O extends unknown = unknown>(
-	flag_h:Record<string, O>, arg_a1:string[]
+export function flag_h_arg_a_<O extends unknown = unknown>(
+	flag_h:Record<string, O>, arg_a:string[]
 ):(string|O)[] {
 	return reduce<string, (string|O)[]>(
 		keys(flag_h),
@@ -10,7 +10,7 @@ export function _flag_h_arg_a1<O extends unknown = unknown>(
 			const _value = flag_h[flag]
 			const value =
 				typeof _value === 'function'
-				? _value(arg_a1)
+				? _value(arg_a)
 				: _value
 			if (value != null) {
 				memo.push(...[].concat(value))
@@ -19,4 +19,7 @@ export function _flag_h_arg_a1<O extends unknown = unknown>(
 		},
 		[]
 	)
+}
+export {
+	flag_h_arg_a_ as _flag_h_arg_a1,
 }
