@@ -1,5 +1,15 @@
 # @ctx-core/cli-args
 
+## 8.0.14
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.6
+  - @ctx-core/function@18.1.2
+  - @ctx-core/object@19.1.2
+
 ## 8.0.13
 
 ### Patch Changes
