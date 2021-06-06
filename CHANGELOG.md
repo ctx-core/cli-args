@@ -1,5 +1,11 @@
 # @ctx-core/cli-args
 
+## 8.0.12
+
+### Patch Changes
+
+- update dependencies
+
 ## 8.0.11
 
 ### Patch Changes
