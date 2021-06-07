@@ -1,5 +1,15 @@
 # @ctx-core/cli-args
 
+## 8.0.15
+
+### Patch Changes
+
+- version bump: run build
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.7
+  - @ctx-core/function@18.1.3
+  - @ctx-core/object@19.1.3
+
 ## 8.0.14
 
 ### Patch Changes
