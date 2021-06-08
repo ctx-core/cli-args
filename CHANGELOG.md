@@ -1,5 +1,13 @@
 # @ctx-core/cli-args
 
+## 8.0.17
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/array@21.2.9
+
 ## 8.0.16
 
 ### Patch Changes
