@@ -1,5 +1,15 @@
 # @ctx-core/cli-args
 
+## 9.0.5
+
+### Patch Changes
+
+- fix: npm run clean
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.5
+  - @ctx-core/function@19.1.3
+  - @ctx-core/object@20.0.4
+
 ## 9.0.4
 
 ### Patch Changes
