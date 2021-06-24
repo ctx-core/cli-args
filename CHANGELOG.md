@@ -1,5 +1,15 @@
 # @ctx-core/cli-args
 
+## 9.0.11
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+- Updated dependencies [undefined]
+  - @ctx-core/array@22.0.11
+  - @ctx-core/function@19.1.8
+  - @ctx-core/object@20.1.1
+
 ## 9.0.10
 
 ### Patch Changes
