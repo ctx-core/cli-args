@@ -1,5 +1,5 @@
 import { flag_regex } from './flag_regex'
-export function flag_h_(arg_a:string[]):Record<string, string> {
+export function flag_r_(arg_a:string[]):Record<string, string> {
 	const flag_h:Record<string, string> = {}
 	let i = 0
 	while (i < arg_a.length) {
@@ -23,6 +23,7 @@ export function flag_h_(arg_a:string[]):Record<string, string> {
 	return flag_h
 }
 export {
-	flag_h_ as _flag_h,
-	flag_h_ as _h__flag,
+	flag_r_ as flag_h_,
+	flag_r_ as _flag_h,
+	flag_r_ as _h__flag,
 }

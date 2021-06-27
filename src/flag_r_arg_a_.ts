@@ -1,6 +1,6 @@
 import { reduce } from '@ctx-core/array'
 import { keys } from '@ctx-core/object'
-export function flag_h_arg_a_<O extends unknown = unknown>(
+export function flag_r_arg_a_<O extends unknown = unknown>(
 	flag_h:Record<string, O>, arg_a:string[]
 ):(string|O)[] {
 	return reduce<string, (string|O)[]>(
@@ -21,5 +21,6 @@ export function flag_h_arg_a_<O extends unknown = unknown>(
 	)
 }
 export {
-	flag_h_arg_a_ as _flag_h_arg_a1,
+	flag_r_arg_a_ as flag_h_arg_a_,
+	flag_r_arg_a_ as _flag_h_arg_a1,
 }

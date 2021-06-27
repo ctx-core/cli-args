@@ -1,6 +1,6 @@
 import { keys } from '@ctx-core/object'
 import { every, find, some } from '@ctx-core/array'
-import { flag_h_ } from './flag_h_'
+import { flag_r_ } from './flag_r_'
 import { flag_a_ } from './flag_a_'
 export function default_arg_a_(
 	arg_a:string[],
@@ -8,7 +8,7 @@ export function default_arg_a_(
 	cancel_a = [] as string[]
 ):string[] {
 	const default_arg_a:string[] = arg_a.slice(0)
-	const flag_h = flag_h_(default_arg_a)
+	const flag_h = flag_r_(default_arg_a)
 	if (some<string>(keys(flag_h), flag=>cancel_a.indexOf(flag) > -1)) {
 		return default_arg_a
 	}
