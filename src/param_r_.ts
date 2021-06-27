@@ -35,7 +35,7 @@ export type param_r_default_value_r_param_name_T =
 	Record<string, param_r_default_value_r_param_name__T>
 export {
 	param_r_ as param_h_fn,
-	param_r_ as _param_h,
+	param_r_ as param_h_,
 	param_r_ as _h__param,
 	param_r_ as _param_h__pick__default,
 }
