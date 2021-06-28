@@ -1,5 +1,17 @@
 # @ctx-core/cli-args
 
+## 9.0.19
+
+### Patch Changes
+
+- update dependencies
+
+## 9.0.18
+
+### Patch Changes
+
+- 8e0a4324f: update dependencies
+
 ## 9.0.17
 
 ### Patch Changes
