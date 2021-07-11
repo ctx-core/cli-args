@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/cli-args",
-	"version": "9.0.28",
+	"version": "9.0.29",
 	"description": "ctx-core command line interface (cli) args library",
 	"keywords": [
 		"ctx-core",
@@ -27,7 +27,7 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^22.1.6",
+		"@ctx-core/array": "workspace:^22.2.0",
 		"@ctx-core/function": "workspace:^19.2.0",
 		"@ctx-core/object": "workspace:^20.4.2"
 	},
