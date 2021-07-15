@@ -1,10 +1,10 @@
 import { keys } from '@ctx-core/object'
 import { every, find, some } from '@ctx-core/array'
-import { flag_r_ } from './flag_r_'
-import { flag_a_ } from './flag_a_'
+import { flag_r_ } from './flag_r_.js'
+import { flag_a_ } from './flag_a_.js'
 export function default_arg_a_(
 	arg_a:string[],
-	value_h_param_dfn = {} as Record<string, param_dfn_T>,
+	value_r_param_dfn = {} as Record<string, param_dfn_T>,
 	cancel_a = [] as string[]
 ):string[] {
 	const default_arg_a:string[] = arg_a.slice(0)
@@ -12,10 +12,10 @@ export function default_arg_a_(
 	if (some<string>(keys(flag_h), flag=>cancel_a.indexOf(flag) > -1)) {
 		return default_arg_a
 	}
-	for (let param_dfn in value_h_param_dfn) {
+	for (let param_dfn in value_r_param_dfn) {
 		const flag_a = flag_a_(param_dfn)
 		if (every(flag_a, flag=>!(flag in flag_h))) {
-			const value:param_dfn_T = value_h_param_dfn[param_dfn]
+			const value:param_dfn_T = value_r_param_dfn[param_dfn]
 			const $value = typeof value === 'function' ? value() : value
 			const flag =
 				find<string>(flag_a, flag=>/^--/.test(flag))

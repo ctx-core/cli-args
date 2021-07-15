@@ -1,6 +1,6 @@
 import { each } from '@ctx-core/array'
-import { flag_a_ } from './flag_a_'
-import type { param_dfn_T } from './default_arg_a_'
+import { flag_a_ } from './flag_a_.js'
+import type { param_dfn_T } from './default_arg_a_.js'
 export function dfn_flag_r_(param_dfn_a:param_dfn_T[]):Record<string, string[]> {
 	const dfn_flag_r = {} as Record<string, string[]>
 	each(param_dfn_a, (param_dfn:param_dfn_T)=>{

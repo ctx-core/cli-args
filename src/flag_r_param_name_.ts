@@ -1,7 +1,7 @@
 import { isArray } from '@ctx-core/object'
 import { each } from '@ctx-core/array'
-import type { param_name_r_param_dfn_T, param_dfn_a_T } from './param_name_r_param_dfn_T'
-import { flag_a_ } from './flag_a_'
+import type { param_name_r_param_dfn_T, param_dfn_a_T } from './param_name_r_param_dfn_T.js'
+import { flag_a_ } from './flag_a_.js'
 export function flag_r_param_name_(
 	param_dfn_r_param_name?:param_name_r_param_dfn_T
 ):Record<string, string> {

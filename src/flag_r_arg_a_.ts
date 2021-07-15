@@ -1,13 +1,13 @@
 import { reduce } from '@ctx-core/array'
 import { keys } from '@ctx-core/object'
 export function flag_r_arg_a_<O extends unknown = unknown>(
-	flag_h:Record<string, O>, arg_a:string[]
+	flag_r:Record<string, O>, arg_a:string[]
 ):(string|O)[] {
 	return reduce<string, (string|O)[]>(
-		keys(flag_h),
+		keys(flag_r),
 		(memo, flag)=>{
 			memo.push(flag)
-			const _value = flag_h[flag]
+			const _value = flag_r[flag]
 			const value =
 				typeof _value === 'function'
 				? _value(arg_a)

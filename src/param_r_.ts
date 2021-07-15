@@ -1,8 +1,8 @@
 import { assign, keys, pick } from '@ctx-core/object'
-import type { param_name_r_param_dfn_T } from './param_name_r_param_dfn_T'
-import { param_value_r_param_name_ } from './param_value_r_param_name_'
-import type { param_record_T } from './param_record_T'
-import type { param_dfn_T } from './default_arg_a_'
+import type { param_name_r_param_dfn_T } from './param_name_r_param_dfn_T.js'
+import { param_value_r_param_name_ } from './param_value_r_param_name_.js'
+import type { param_record_T } from './param_record_T.js'
+import type { param_dfn_T } from './default_arg_a_.js'
 export function param_r_(
 	arg_a:string[],
 	param_dfn_r_param_name?:param_name_r_param_dfn_T,
