@@ -1,5 +1,15 @@
 # @ctx-core/cli-args
 
+## 10.0.22
+
+### Patch Changes
+
+- typescript: ^4.4.3 -> ^4.4.4
+- Updated dependencies [undefined]
+  - @ctx-core/array@23.0.22
+  - @ctx-core/function@20.2.2
+  - @ctx-core/object@21.0.21
+
 ## 10.0.21
 
 ### Patch Changes
