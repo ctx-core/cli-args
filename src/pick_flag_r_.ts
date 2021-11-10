@@ -1,8 +1,8 @@
 import { each } from '@ctx-core/array'
 import { keys, pick } from '@ctx-core/object'
 import { dfn_flag_r_ } from './dfn_flag_r_.js'
+import type { param_dfn_T } from './param_dfn_T.js'
 import { flag_r_ } from './flag_r_.js'
-import type { param_dfn_T } from './default_arg_a_.js'
 export function pick_flag_r_(
 	arg_a:string[],
 	...param_dfn_a:param_dfn_T[]

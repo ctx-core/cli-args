@@ -1,5 +1,24 @@
 # @ctx-core/cli-args
 
+## 11.0.0
+
+### Major Changes
+
+- param*value_r_param_name*->param*name_r_param_val_a*
+- param*r*: simplify interface: always returns a record with string[] values
+
+### Minor Changes
+
+- engines*node* from node*version*
+
+### Patch Changes
+
+- compile using swc
+- Updated dependencies
+  - @ctx-core/array@23.0.23
+  - @ctx-core/function@20.2.3
+  - @ctx-core/object@21.0.22
+
 ## 10.0.22
 
 ### Patch Changes

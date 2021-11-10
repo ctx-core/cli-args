@@ -1,7 +1,8 @@
-import { keys } from '@ctx-core/object'
 import { every, find, some } from '@ctx-core/array'
-import { flag_r_ } from './flag_r_.js'
+import { keys } from '@ctx-core/object'
 import { flag_a_ } from './flag_a_.js'
+import { flag_r_ } from './flag_r_.js'
+import type { param_dfn_T } from './param_dfn_T.js'
 export function default_arg_a_(
 	arg_a:string[],
 	value_r_param_dfn = {} as Record<string, param_dfn_T>,
@@ -25,8 +26,6 @@ export function default_arg_a_(
 	}
 	return default_arg_a
 }
-export type param_dfn_T = string|(()=>string)
-export type param_dfn_type = param_dfn_T
 export {
 	default_arg_a_ as default_arg_a1_fn,
 	default_arg_a_ as _default_arg_a1,
