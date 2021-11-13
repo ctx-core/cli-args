@@ -1,5 +1,15 @@
 # @ctx-core/cli-args
 
+## 11.0.1
+
+### Patch Changes
+
+- @swc/core: ^1.2.107 -> ^1.2.108
+- Updated dependencies
+  - @ctx-core/array@23.0.24
+  - @ctx-core/function@20.2.4
+  - @ctx-core/object@21.0.23
+
 ## 11.0.0
 
 ### Major Changes
