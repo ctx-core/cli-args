@@ -1,5 +1,13 @@
 # @ctx-core/cli-args
 
+## 11.0.10
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+- Updated dependencies
+  - @ctx-core/array@23.0.32
+
 ## 11.0.9
 
 ### Patch Changes
