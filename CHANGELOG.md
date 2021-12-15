@@ -1,5 +1,15 @@
 # @ctx-core/cli-args
 
+## 11.0.14
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+- Updated dependencies
+  - @ctx-core/array@23.0.36
+  - @ctx-core/function@20.2.15
+  - @ctx-core/object@22.0.3
+
 ## 11.0.13
 
 ### Patch Changes
