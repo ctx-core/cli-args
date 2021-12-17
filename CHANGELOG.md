@@ -1,5 +1,15 @@
 # @ctx-core/cli-args
 
+## 11.0.17
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/array@23.0.39
+  - @ctx-core/function@20.2.18
+  - @ctx-core/object@22.0.6
+
 ## 11.0.16
 
 ### Patch Changes
