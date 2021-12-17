@@ -1,5 +1,15 @@
 # @ctx-core/cli-args
 
+## 11.0.18
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+- Updated dependencies
+  - @ctx-core/array@23.0.40
+  - @ctx-core/function@20.2.19
+  - @ctx-core/object@22.0.7
+
 ## 11.0.17
 
 ### Patch Changes
