@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/cli-args",
-	"version": "11.0.18",
+	"version": "11.0.19",
 	"description": "ctx-core command line interface (cli) args library",
 	"keywords": [
 		"ctx-core",
@@ -17,7 +17,7 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.ts",
+	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
 			"import": "./dist/index.js"
@@ -35,9 +35,9 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/array": "workspace:^23.0.40",
-		"@ctx-core/function": "workspace:^20.2.19",
-		"@ctx-core/object": "workspace:^22.0.7"
+		"@ctx-core/array": "workspace:^23.0.41",
+		"@ctx-core/function": "workspace:^20.2.20",
+		"@ctx-core/object": "workspace:^22.0.8"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
