@@ -1,12 +1,7 @@
 import { flag_r_param_name_ } from './flag_r_param_name_.js'
 import { flag_regex } from './flag_regex.js'
-import type { param_name_r_param_dfn_T } from './param_name_r_param_dfn_T.js'
-import type { param_r_T } from './param_r_T.js'
-export function param_name_r_param_val_a_(
-	arg_a:string[],
-	param_name_r_param_dfn?:param_name_r_param_dfn_T
-):param_r_T {
-	const param_name_r_param_val_a = {} as param_r_T
+export function param_name_r_param_val_a_(arg_a, param_name_r_param_dfn) {
+	const param_name_r_param_val_a = {}
 	const flag_r_param_name = flag_r_param_name_(param_name_r_param_dfn)
 	let i = 0
 	while (i < arg_a.length) {
@@ -31,3 +26,4 @@ export {
 	param_name_r_param_val_a_ as param_value_h_param_name_,
 	param_name_r_param_val_a_ as _param_value_h_param_name,
 }
+//# sourceMappingURL=param_name_r_param_val_a_.js.map
