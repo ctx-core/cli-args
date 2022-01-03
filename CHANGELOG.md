@@ -1,5 +1,15 @@
 # @ctx-core/cli-args
 
+## 11.0.20
+
+### Patch Changes
+
+- fix: remove incorrect sourcemap annotation
+- Updated dependencies
+  - @ctx-core/array@23.1.1
+  - @ctx-core/function@20.2.22
+  - @ctx-core/object@22.0.9
+
 ## 11.0.19
 
 ### Patch Changes

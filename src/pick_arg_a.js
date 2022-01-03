@@ -5,4 +5,3 @@ export function pick_arg_a(arg_a, ...param_dfn_a) {
 	return flag_r_arg_a_(pick_flag_r, arg_a)
 }
 export { pick_arg_a as pick_arg_a1, }
-//# sourceMappingURL=pick_arg_a.js.map
