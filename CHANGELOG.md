@@ -1,5 +1,15 @@
 # @ctx-core/cli-args
 
+## 11.0.22
+
+### Patch Changes
+
+- uvu: ^0.5.2 -> ^0.5.3
+- Updated dependencies
+  - @ctx-core/array@23.1.3
+  - @ctx-core/function@20.2.24
+  - @ctx-core/object@22.0.11
+
 ## 11.0.21
 
 ### Patch Changes
