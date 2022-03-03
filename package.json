@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/cli-args",
-	"version": "11.0.25",
+	"version": "11.0.26",
 	"description": "ctx-core command line interface (cli) args library",
 	"keywords": [
 		"ctx-core",
