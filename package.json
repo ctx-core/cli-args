@@ -35,7 +35,7 @@
 	"dependencies": {
 		"@ctx-core/array": "^26.4.3",
 		"@ctx-core/function": "^20.8.0",
-		"@ctx-core/object": "^22.2.0"
+		"@ctx-core/object": "^22.2.1"
 	},
 	"devDependencies": {
 		"c8": "^7.11.3",
