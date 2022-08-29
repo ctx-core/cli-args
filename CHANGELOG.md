@@ -1,5 +1,15 @@
 # @ctx-core/cli-args
 
+## 11.0.48
+
+### Patch Changes
+
+- tsx: ^3.8.2 -> ^3.9.0
+- Updated dependencies
+  - @ctx-core/array@26.7.7
+  - @ctx-core/function@21.0.1
+  - @ctx-core/object@22.2.7
+
 ## 11.0.47
 
 ### Patch Changes
