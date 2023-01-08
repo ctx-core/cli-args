@@ -1,5 +1,13 @@
 # @ctx-core/cli-args
 
+## 11.0.56
+
+### Patch Changes
+
+- @ctx-core/object: ^22.9.1 -> ^22.10.0
+- Updated dependencies
+  - @ctx-core/array@26.8.7
+
 ## 11.0.55
 
 ### Patch Changes
