@@ -1,4 +1,9 @@
-import { flag_regex } from './flag_regex.js'
+import { flag_regex } from '../flag_regex/index.js'
+/**
+ * @param arg_a{string[]}
+ * @returns {Record<string, string>}
+ * @private
+ */
 export function flag_r_(arg_a) {
 	const flag_r = {}
 	let i = 0
@@ -22,4 +27,8 @@ export function flag_r_(arg_a) {
 	}
 	return flag_r
 }
-export { flag_r_ as flag_h_, flag_r_ as _flag_h, flag_r_ as _h__flag, }
+export {
+	flag_r_ as flag_h_,
+	flag_r_ as _flag_h,
+	flag_r_ as _h__flag,
+}

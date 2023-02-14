@@ -1,5 +1,5 @@
-import { flag_r_param_name_ } from './flag_r_param_name_.js'
-import { flag_regex } from './flag_regex.js'
+import { flag_r_param_name_ } from '../flag_r_param_name_/index.js'
+import { flag_regex } from '../flag_regex/index.js'
 export function param_name_r_param_val_a_(arg_a, param_name_r_param_dfn) {
 	const param_name_r_param_val_a = {}
 	const flag_r_param_name = flag_r_param_name_(param_name_r_param_dfn)

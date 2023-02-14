@@ -1,6 +1,6 @@
 import { assign, keys, pick } from '@ctx-core/object'
-import { param_name_r_param_val_a_ } from '../param_name_r_param_val_a_.js'
-/** @type {import('./index.d.ts').param_r_} */
+import { param_name_r_param_val_a_ } from '../param_name_r_param_val_a_/index.js'
+/** @type {typeof import('./index.d.ts').param_r_} */
 export const param_r_ = (
 	arg_a,
 	param_dfn_r_param_name,
