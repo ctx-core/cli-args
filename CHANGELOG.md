@@ -1,5 +1,11 @@
 # @ctx-core/cli-args
 
+## 11.1.23
+
+### Patch Changes
+
+- @ctx-core/array: ^26.11.21 -> ^26.12.0
+
 ## 11.1.22
 
 ### Patch Changes
