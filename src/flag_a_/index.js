@@ -1,6 +1,6 @@
 import { param_dfn_split_regex } from '../param_dfn_split_regex/index.js'
 /**
- * @param param_dfn{string}
+ * @param {string}param_dfn
  * @returns {string[]}
  */
 export function flag_a_(param_dfn) {

@@ -1,11 +1,11 @@
 import { flag_regex } from '../flag_regex/index.js'
 /**
- * @param arg_a{string[]}
+ * @param {string[]}arg_a
  * @returns {Record<string, string>}
  * @private
  */
 export function flag_r_(arg_a) {
-	const flag_r = {}
+	const flag_R = {}
 	let i = 0
 	while (i < arg_a.length) {
 		const flag = arg_a[i]
@@ -14,18 +14,18 @@ export function flag_r_(arg_a) {
 		if (match) {
 			while (j < arg_a.length && !flag_regex.test(arg_a[j])) {
 				const value = arg_a[j]
-				if (flag_r[flag]) {
-					flag_r[flag] += ` ${value}`
+				if (flag_R[flag]) {
+					flag_R[flag] += ` ${value}`
 				} else {
-					flag_r[flag] = value
+					flag_R[flag] = value
 				}
 				j += 1
 			}
 		}
-		if (!(flag in flag_r)) delete flag_r[flag]
+		if (!(flag in flag_R)) delete flag_R[flag]
 		i = j
 	}
-	return flag_r
+	return flag_R
 }
 export {
 	flag_r_ as flag_h_,

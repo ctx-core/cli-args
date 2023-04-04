@@ -1,8 +1,8 @@
-import { flag_r_param_name_ } from '../flag_r_param_name_/index.js'
+import { flag_R_param_name_ } from '../flag_R_param_name_/index.js'
 import { flag_regex } from '../flag_regex/index.js'
-export function param_name_r_param_val_a_(arg_a, param_name_r_param_dfn) {
+export function param_name_R_param_val_a_(arg_a, param_name_r_param_dfn) {
 	const param_name_r_param_val_a = {}
-	const flag_r_param_name = flag_r_param_name_(param_name_r_param_dfn)
+	const flag_r_param_name = flag_R_param_name_(param_name_r_param_dfn)
 	let i = 0
 	while (i < arg_a.length) {
 		const flag = arg_a[i]
@@ -23,6 +23,7 @@ export function param_name_r_param_val_a_(arg_a, param_name_r_param_dfn) {
 	return param_name_r_param_val_a
 }
 export {
-	param_name_r_param_val_a_ as param_value_h_param_name_,
-	param_name_r_param_val_a_ as _param_value_h_param_name,
+	param_name_R_param_val_a_ as param_name_r_param_val_a_,
+	param_name_R_param_val_a_ as param_value_h_param_name_,
+	param_name_R_param_val_a_ as _param_value_h_param_name,
 }

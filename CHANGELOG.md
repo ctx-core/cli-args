@@ -1,5 +1,19 @@
 # @ctx-core/cli-args
 
+## 11.2.0
+
+### Minor Changes
+
+- - param_name_R_param_dfn_T: aliased by param_name_r_param_dfn_T
+- - param_R\_\_\_default_value_R_param_name_T: aliased by param_r_default_value_r_param_name_T
+- - param*name_R_param_val_a*: aliased by param*name_r_param_val_a*
+- - flag*R_arg_a*: aliased by flag*r_arg_a*
+- - flag*R_param_name*: aliased by flag*r_param_name*
+
+### Patch Changes
+
+- jsdoc: fix: @param definitions
+
 ## 11.1.33
 
 ### Patch Changes
