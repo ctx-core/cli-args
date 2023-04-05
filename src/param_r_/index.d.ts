@@ -1,9 +1,9 @@
-import type { param_name_R_param_dfn_T, param_R_T } from '../_types'
+import type { param_name_R_param_dfn_T, param_r_T } from '../_types'
 export declare function param_r_(
 	arg_a:string[],
 	param_dfn_R_param_name?:param_name_R_param_dfn_T,
 	default_value_R_param_name?:param_R__default_value_R_param_name_T
-):param_R_T
+):param_r_T
 export {
 	param_r_ as param_h_fn,
 	param_r_ as param_h_,

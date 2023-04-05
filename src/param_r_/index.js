@@ -7,7 +7,7 @@ export const param_r_ = (
 	default_value_r_param_name = {}
 )=>{
 	const param_R = param_name_R_param_val_a_(arg_a, param_dfn_R_param_name)
-	/** @type {Record<keyof param_R_T, default_param_T>} */
+	/** @type {Record<keyof param_r_T, default_param_T>} */
 	const default_param_r = {}
 	for (let param_name in default_value_r_param_name) {
 		if (param_R[param_name] == null) {
@@ -19,7 +19,7 @@ export const param_r_ = (
 		const param_name_a = keys(param_dfn_R_param_name)
 		return pick(param_R, ...param_name_a)
 	}
-	/** @type {param_R_T} */
+	/** @type {param_r_T} */
 	return param_R
 }
 export {
