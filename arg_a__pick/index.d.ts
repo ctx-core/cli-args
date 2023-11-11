@@ -1,4 +1,4 @@
-import type { param_dfn_T } from '../_types'
+import type { param_dfn_T } from '../_types/index.js'
 export declare function arg_a__pick(
 	arg_a:string[],
 	...param_dfn_a:param_dfn_T[]

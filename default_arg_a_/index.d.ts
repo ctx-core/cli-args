@@ -1,4 +1,4 @@
-import type { param_dfn_T } from '../_types'
+import type { param_dfn_T } from '../_types/index.js'
 export declare function default_arg_a_(
 	arg_a:string[],
 	value_r_param_dfn?:Record<string, param_dfn_T>,

@@ -1,4 +1,4 @@
-import type { param_name_R_param_dfn_T } from '../_types'
+import type { param_name_R_param_dfn_T } from '../_types/index.js'
 export declare function flag_R_param_name_(
 	param_dfn_R_param_name?:param_name_R_param_dfn_T
 ):Record<string, string>

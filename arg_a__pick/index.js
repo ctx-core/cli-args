@@ -2,7 +2,7 @@ import { flag_R_arg_a_ } from '../flag_R_arg_a_/index.js'
 import { flag_r__pick } from '../flag_r__pick/index.js'
 /**
  * @param {string[]}arg_a
- * @param {import('../_types').param_dfn_T}param_dfn_a
+ * @param {import('../_types/index.js').param_dfn_T}param_dfn_a
  * @returns {string[]}
  */
 export function arg_a__pick(

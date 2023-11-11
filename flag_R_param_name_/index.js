@@ -1,7 +1,7 @@
 import { each } from '@ctx-core/array'
 import { flag_a_ } from '../flag_a_/index.js'
 /**
- * @param {import('../_types').param_name_R_param_dfn_T}param_dfn_R_param_name
+ * @param {import('../_types/index.js').param_name_R_param_dfn_T}param_dfn_R_param_name
  * @returns {Record<string, string>}
  */
 export function flag_R_param_name_(

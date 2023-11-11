@@ -1,4 +1,4 @@
-import type { param_dfn_T } from '../_types'
+import type { param_dfn_T } from '../_types/index.js'
 export declare function dfn_flag_r_(
 	param_dfn_a:param_dfn_T[]
 ):Record<string, string[]>

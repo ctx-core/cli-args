@@ -1,4 +1,4 @@
-import type { param_name_R_param_dfn_T, param_r_T } from '../_types'
+import type { param_name_R_param_dfn_T, param_r_T } from '../_types/index.js'
 export declare function param_r_(
 	arg_a:string[],
 	param_dfn_R_param_name?:param_name_R_param_dfn_T,

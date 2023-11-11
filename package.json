@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/cli-args",
-	"version": "11.3.46",
+	"version": "11.4.0",
 	"description": "ctx-core command line interface (cli) args library",
 	"keywords": [
 		"ctx-core",
@@ -17,10 +17,26 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.d.ts",
-	"svelte": "./src/index.js",
+	"files": [
+		"*.d.ts",
+		"./_types",
+		"./arg_a__pick",
+		"./default_arg_a_",
+		"./dfn_flag_r_",
+		"./flag_a_",
+		"./flag_r_",
+		"./flag_r__pick",
+		"./flag_R_arg_a_",
+		"./flag_R_param_name_",
+		"./flag_regex",
+		"./param_dfn_a_reducer",
+		"./param_dfn_split_regex",
+		"./param_name_R_param_val_a_",
+		"./param_r_"
+	],
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
@@ -33,9 +49,9 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.15.9",
-		"@ctx-core/function": "^21.20.2",
-		"@ctx-core/object": "^30.0.0"
+		"@ctx-core/array": "^27.0.0",
+		"@ctx-core/function": "^21.21.0",
+		"@ctx-core/object": "^30.1.0"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",

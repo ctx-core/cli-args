@@ -1,4 +1,4 @@
-import { every, find, some } from '@ctx-core/array'
+import { every, find, a_some } from '@ctx-core/array'
 import { keys } from '@ctx-core/object'
 import { flag_a_ } from '../flag_a_/index.js'
 import { flag_r_ } from '../flag_r_/index.js'
@@ -15,7 +15,7 @@ export function default_arg_a_(
 ) {
 	const default_arg_a = arg_a.slice(0)
 	const flag_h = flag_r_(default_arg_a)
-	if (some(keys(flag_h), (flag)=>cancel_a.indexOf(flag) > -1
+	if (a_some(keys(flag_h), (flag)=>cancel_a.indexOf(flag) > -1
 	)) {
 		return default_arg_a
 	}

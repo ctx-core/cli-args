@@ -4,7 +4,7 @@ import { dfn_flag_r_ } from '../dfn_flag_r_/index.js'
 import { flag_r_ } from '../flag_r_/index.js'
 /**
  * @param {string[]}arg_a
- * @param {import('../_types').param_dfn_T}param_dfn_a
+ * @param {import('../_types/index.js').param_dfn_T}param_dfn_a
  * @returns {Record<string, string>}
  * @private
  */
