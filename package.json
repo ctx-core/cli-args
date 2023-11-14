@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/cli-args",
-	"version": "11.4.1",
+	"version": "11.4.2",
 	"description": "ctx-core command line interface (cli) args library",
 	"keywords": [
 		"ctx-core",
@@ -19,6 +19,7 @@
 	"type": "module",
 	"files": [
 		"*.d.ts",
+		"*.json",
 		"./_types",
 		"./arg_a__pick",
 		"./default_arg_a_",
@@ -49,9 +50,9 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^27.0.1",
-		"@ctx-core/function": "^21.21.1",
-		"@ctx-core/object": "^30.1.1"
+		"@ctx-core/array": "^27.0.2",
+		"@ctx-core/function": "^21.21.2",
+		"@ctx-core/object": "^30.1.2"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
