@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/cli-args",
-	"version": "11.4.16",
+	"version": "11.4.17",
 	"description": "ctx-core command line interface (cli) args library",
 	"keywords": [
 		"ctx-core",
@@ -51,9 +51,9 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^27.0.16",
-		"@ctx-core/function": "^21.22.11",
-		"@ctx-core/object": "^30.4.8"
+		"@ctx-core/array": "^27.0.17",
+		"@ctx-core/function": "^21.22.12",
+		"@ctx-core/object": "^31.0.0"
 	},
 	"devDependencies": {
 		"c8": "^8.0.1",
