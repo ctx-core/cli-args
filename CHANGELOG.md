@@ -1,5 +1,13 @@
 # @ctx-core/cli-args
 
+## 11.4.51
+
+### Patch Changes
+
+- @ctx-core/object: ^31.1.31 -> ^31.1.32
+- @ctx-core/array: ^27.1.11 -> ^27.1.12
+- @ctx-core/function: ^21.24.4 -> ^21.24.5
+
 ## 11.4.50
 
 ### Patch Changes
