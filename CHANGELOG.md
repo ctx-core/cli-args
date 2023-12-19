@@ -1,5 +1,11 @@
 # @ctx-core/cli-args
 
+## 11.4.57
+
+### Patch Changes
+
+- tsx: ^4.6.2 -> ^4.7.0
+
 ## 11.4.56
 
 ### Patch Changes
