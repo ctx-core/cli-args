@@ -1,5 +1,13 @@
 # @ctx-core/cli-args
 
+## 11.4.56
+
+### Patch Changes
+
+- consolidate dependencies
+- Updated dependencies
+  - ctx-core@5.1.0
+
 ## 11.4.55
 
 ### Patch Changes

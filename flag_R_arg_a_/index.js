@@ -1,5 +1,5 @@
-import { reduce } from '@ctx-core/array'
-import { keys } from '@ctx-core/object'
+import { reduce } from 'ctx-core/array'
+import { keys } from 'ctx-core/object'
 /**
  * @param {Record<string, unknown>}flag_R
  * @param {string[]}arg_a

@@ -1,4 +1,4 @@
-import { tap } from '@ctx-core/function'
+import { tap } from 'ctx-core/function'
 /**
  * @param memo{unknown[]}
  * @param value{unknown}

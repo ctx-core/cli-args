@@ -1,7 +1,8 @@
-import { each } from '@ctx-core/array'
+/// <reference types="../types/index.d.ts" />
+import { each } from 'ctx-core/array'
 import { flag_a_ } from '../flag_a_/index.js'
 /**
- * @param {import('../_types/index.js').param_dfn_T[]}param_dfn_a
+ * @param {param_dfn_T[]}param_dfn_a
  * @returns {Record<string, string[]>}
  */
 export function dfn_flag_r_(param_dfn_a) {
@@ -9,8 +10,8 @@ export function dfn_flag_r_(param_dfn_a) {
 	each(param_dfn_a, (param_dfn)=>{
 		const flag_a = flag_a_(
 			typeof param_dfn === 'function'
-			? param_dfn()
-			: param_dfn)
+				? param_dfn()
+				: param_dfn)
 		each(flag_a, (flag)=>{
 			dfn_flag_R[flag] = flag_a
 		})
