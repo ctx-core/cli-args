@@ -20,21 +20,7 @@
 	"files": [
 		"*.d.ts",
 		"*.js",
-		"*.json",
-		"./_types",
-		"./arg_a__pick",
-		"./default_arg_a_",
-		"./dfn_flag_r_",
-		"./flag_a_",
-		"./flag_r_",
-		"./flag_r__pick",
-		"./flag_R_arg_a_",
-		"./flag_R_param_name_",
-		"./flag_regex",
-		"./param_dfn_a_reducer",
-		"./param_dfn_split_regex",
-		"./param_name_R_param_val_a_",
-		"./param_r_"
+		"*.json"
 	],
 	"types": "./index.d.ts",
 	"exports": {
