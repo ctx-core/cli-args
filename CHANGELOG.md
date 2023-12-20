@@ -1,5 +1,11 @@
 # @ctx-core/cli-args
 
+## 11.4.59
+
+### Patch Changes
+
+- ctx-core: ^5.2.0 -> ^5.2.1
+
 ## 11.4.58
 
 ### Patch Changes
