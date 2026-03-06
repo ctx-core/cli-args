@@ -1,5 +1,13 @@
 # @ctx-core/cli-args
 
+## 11.4.209
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+
 ## 11.4.208
 
 ### Patch Changes
